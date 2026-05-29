@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Белый"
+            android:textSize="18sp"
+            android:padding="12dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Красный"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/radioGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Зелёный"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/radioBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Синий"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/radioYellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Жёлтый"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/radioCyan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Голубой"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/radioBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Чёрный"
+            android:textSize="18sp"
+            android:padding="12dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Применить цвет"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
