@@ -314,7 +314,6 @@ public class MainActivity extends AppCompatActivity {
 ![Рисунок 1 - MainActivity](images/image_1.png)<br>
 ![Рисунок 2 - SettingsActivity](images/image_2.png)<br>
 ![Рисунок 3 - AboutActivity](images/image_3.png)<br>
-![Рисунок 4 - изменение цвета фона MainActivity на голубой](images/image_4.png)<br>
 
 #### Задания для самостоятельного выполнения
 Необходимо реализовать приложение с двумя дополнительными активностями: экран настроек и экран "Об авторе". На главном экране должно отображаться применение настроек.<br>
@@ -322,7 +321,6 @@ public class MainActivity extends AppCompatActivity {
 ![Рисунок 5 - Главная активность](images/image_5.png)<br>
 ![Рисунок 6 - Окно настроек](images/image_6.png)<br>
 ![Рисунок 7 - Новый цвет главной активности](images/image_7.png)<br>
-![Рисунок 8 - Об авторе](images/image_8.png)<br>
 
 ### Вывод
 В результате выполнения практической работы были получены навыки создания многоэкранных приложений, осуществления навигации между активностями (Activity) и передавать данные между ними с использованием объектов Intent и механизма startActivityForResult / onActivityResult.
