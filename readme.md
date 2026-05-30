@@ -189,7 +189,7 @@ public class SettingsActivity extends AppCompatActivity {
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ФИО: Деревянко Артм Владимирович"
+        android:text="ФИО: Федоров Артём Александрович"
         android:textSize="18sp"/>
 
     <TextView
